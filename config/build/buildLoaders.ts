@@ -19,7 +19,7 @@ export function buildLoaders(options: BuildOptions): ModuleOptions['rules'] {
   };
 
   //SVG sprite
-  const sbgSpriteLoader = {
+  const svgSpriteLoader = {
     test: /\.svg$/i,
     include: /.*_sprite\.svg/,
     use: [
@@ -99,6 +99,7 @@ export function buildLoaders(options: BuildOptions): ModuleOptions['rules'] {
     cssLoader,
     //tsLoader,
     babelLoader,
+    svgSpriteLoader,
     svgLoader,
     fontsLoader,
   ];
