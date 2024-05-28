@@ -14,6 +14,7 @@ export function buildWebpack(options: BuildOptions): webpack.Configuration {
     mode: mode ?? 'development',
     entry: paths.entry,
     output: {
+      publicPath: '/webpack-template-v1.1.0/',
       path: paths.output,
       filename: '[name].[contenthash].js',
       clean: true,
