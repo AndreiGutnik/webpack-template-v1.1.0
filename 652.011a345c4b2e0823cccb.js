@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkwebpack_react_ts_template=self.webpackChunkwebpack_react_ts_template||[]).push([[652],{652:(e,t,a)=>{function c(){return React.createElement("div",null,React.createElement("h1",null,"MainPage"))}a.r(t),a.d(t,{default:()=>c})}}]);
+//# sourceMappingURL=652.011a345c4b2e0823cccb.js.map
